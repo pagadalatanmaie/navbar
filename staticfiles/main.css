@@ -1,0 +1,23 @@
+div{
+    width: 75%;
+    height: 70px;
+    background-color: cornflowerblue;
+    border: 3px solid crimson;
+    border-radius: 4px 6px;
+    padding: 4px 4px;
+    display: flex;
+
+}
+nav{
+    margin-left: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+h2{
+    margin-left: 12px;
+}

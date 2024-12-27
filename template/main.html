@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+   
+</head>
+<body>
+    <section>
+        <div>
+            <aside><h1>Tan learning</h1></aside>
+            <nav>
+
+              <h2><a href="">About us</a></h2>
+              <h2><a href="{% url 'navbar_01' %}">Courses</a></h2>
+              <h2><a href="{% url 'navbar_02' %}">Profile</a></h2>
+              <h2><a href="{% url 'navbar_03' %}">Logout</a></h2>
+            </nav>
+        </div>
+
+    </section>
+</body>
+</html>
